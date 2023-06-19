@@ -1,7 +1,7 @@
 //8) Java Program to print the duplicate elements of an array
 public class Main {
     public static void main(String[] args) {
-        int [] arr = new int  {1, 2, 3, 4, 2, 7, 8, 8, 3};
+        int [] arr = {1, 2, 3, 4, 2, 7, 8, 8, 3};
         System.out.println("Duplicate elements are ");
               for(int i = 0; i < arr.length; i++) {
                   for (int j = i + 1; j < arr.length; j++) {
