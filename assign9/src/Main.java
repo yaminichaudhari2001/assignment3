@@ -1,7 +1,7 @@
 //9) Java Program to sort the elements of an array in ascending order
 public class Main {
     public static void main(String[] args) {
-        int [] arr = new int {5, 80, 8, 7, 11};
+        int [] arr = {5, 80, 8, 7, 11};
         int temp = 0;
         System.out.println("Elements of your array: ");
         for (int i = 0; i < arr.length; i++) {
